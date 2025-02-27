@@ -86,7 +86,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## Contact
 
-For any questions or feedback, please contact the author at [your-email@example.com].
+For any questions or feedback, please contact the author at [h4shell@mail.com].
 
 ---
 
