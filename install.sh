@@ -43,7 +43,7 @@ start() {
     # Start the Tor service if it's not already running
     if ! pgrep -x "tor" > /dev/null; then
         echo "Starting Tor service..."
-        systemctl start tor
+        /etc/init.d/tor start
     fi
 
     # Infinite loop to change IP
