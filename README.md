@@ -18,20 +18,10 @@ The IP Changer script is a Bash script designed to change your IP address anonym
 
 ## Installation
 
-To install the IP Changer script, follow these steps:
-
-1. **Download the Script**: Copy the script content into a file named `ipchanger.sh`.
-
-2. **Make the Script Executable**:
-
-   ```bash
-   chmod +x ipchanger.sh
-   ```
-
 3. **Run the Script**:
 
    ```bash
-   sudo ./ipchanger.sh
+   curl -O https://raw.githubusercontent.com/h4shell/ipchanger_tor/refs/heads/main/install.sh | sudo ./install.sh
    ```
 
    The script will install itself to `/etc/init.d/ipchanger` if it is not already installed.
