@@ -21,7 +21,7 @@ The IP Changer script is a Bash script designed to change your IP address anonym
 3. **Run the Script**:
 
    ```bash
-   curl -O https://raw.githubusercontent.com/h4shell/ipchanger_tor/refs/heads/main/install.sh | sudo ./install.sh
+   curl -O https://raw.githubusercontent.com/h4shell/ipchanger_tor/refs/heads/main/install.sh | sudo bash install.sh
    ```
 
    The script will install itself to `/etc/init.d/ipchanger` if it is not already installed.
