@@ -50,9 +50,9 @@ start() {
     while true; do
         /etc/init.d/tor reload > /dev/null
         # Get and print the new IP
-        NEW_IP=$(curl -s http://httpbin.org/ip 2> /dev/null)
-        echo "New IP: $NEW_IP"
-        echo "Waiting 1 second before the next IP change..."
+        #NEW_IP=$(proxychains curl -s http://httpbin.org/ip 2> /dev/null)
+        #echo "New IP: $NEW_IP"
+        #echo "Waiting 1 second before the next IP change..."
         sleep 1
     done &
     echo $! > /var/run/ipchanger.pid
